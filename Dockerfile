@@ -15,7 +15,7 @@ workdir /etc/php5/apache2
 run rm /etc/php5/apache/php.ini
 run wget  https://github.com/pratheeshts0/docker123/tree/wp-fs/php.ini
 
-workdir /etc/php5/fpm/php.ini
+workdir /etc/php5/fpm
 run rm /etc/php5/fpm/php.ini
 run wget https://github.com/pratheeshts0/docker123/tree/wp-fs/wordpress/php.ini
 
